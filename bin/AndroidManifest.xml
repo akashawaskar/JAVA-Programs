@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.expro.akash.programs"
+    android:versionCode="1"
+    android:versionName="V1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar" android:hasCode="true" android:requiredForAllUsers="true" android:persistent="false">
+        <activity
+            android:name="com.expro.akash.programs.MainActivity"
+            android:label="@string/app_name" >
+           
+        </activity>
+        <activity android:name="com.expro.akash.programs.Show01"></activity>
+        <activity android:name="Main"></activity>
+        <activity android:name="SplashActivity">
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Reference"></activity>
+        <activity android:name="Show02"></activity>
+        <activity android:name="Show03"></activity>
+         <activity android:name="Show04"></activity>
+        <activity android:name="Show05"></activity>
+        <activity android:name="Show06"></activity>
+        <activity android:name="Show07"></activity>
+         <activity android:name="Show08"></activity>
+        <activity android:name="Show09"></activity>
+        <activity android:name="Show10"></activity>
+        <activity android:name="Show11"></activity>
+         <activity android:name="Show12"></activity>
+        <activity android:name="Show13"></activity>
+        <activity android:name="Show14"></activity>
+        <activity android:name="Show15"></activity>
+         <activity android:name="Show16"></activity>
+        <activity android:name="Show17"></activity>
+        <activity android:name="Show18"></activity>
+        <activity android:name="Show19"></activity>
+         <activity android:name="Show20"></activity>
+        <activity android:name="Show21"></activity>
+        <activity android:name="Show22"></activity>
+        <activity android:name="Show23"></activity>
+         <activity android:name="Show24"></activity>
+        <activity android:name="Show25"></activity>
+        <activity android:name="Show26"></activity>
+        <activity android:name="Show27"></activity>
+         <activity android:name="Show28"></activity>
+        <activity android:name="Show29"></activity>
+        <activity android:name="Show30"></activity>
+        <activity android:name="Show31"></activity>
+       <activity android:name="Show32"></activity>
+        <activity android:name="Show33"></activity>
+        <activity android:name="Show34"></activity>
+        <activity android:name="Show35"></activity>
+        <activity android:name="Show36"></activity>
+       <activity android:name="Show37"></activity>
+        <activity android:name="Show38"></activity>
+        <activity android:name="Show39"></activity>
+        <activity android:name="Show40"></activity>
+    </application>
+
+</manifest>
