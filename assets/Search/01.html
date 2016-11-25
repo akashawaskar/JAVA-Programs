@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 4.3.2.2 (Windows)"/>
+	<meta name="author" content="Chaitrali Bubane"/>
+	<meta name="created" content="2015-02-15T01:29:00"/>
+	<meta name="changed" content="2015-02-24T09:46:25.266000000"/>
+	<meta name="AppVersion" content="15.0000"/>
+	<meta name="DocSecurity" content="0"/>
+	<meta name="HyperlinksChanged" content="false"/>
+	<meta name="LinksUpToDate" content="false"/>
+	<meta name="ScaleCrop" content="false"/>
+	<meta name="ShareDoc" content="false"/>
+	<style type="text/css">
+		@page { margin: 2.54cm }
+		p { margin-bottom: 0.25cm; direction: ltr; line-height: 120%; text-align: left; widows: 2; orphans: 2 }
+	</style>
+</head>
+<body lang="en-GB" dir="ltr">
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>package</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+Search;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>import</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+java.util.Scanner;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>public</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>class</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+Binary_Search {</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>public</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>static</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>void</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+main(String </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">args</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">[]){</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>int</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">c</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">,
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">first</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">,
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">last</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">,
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">middle</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">,
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">n</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">,
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">search</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">,
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">array</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">[];</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">Scanner
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">in</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>new</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+Scanner(System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>in</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#2a00ff"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">&quot;Enter
+number of elements&quot;</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">n</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">in</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.nextInt();</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">array</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>new</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>int</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">[</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">n</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">];</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#2a00ff"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">&quot;Enter
+&quot;</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
++ </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">n</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
++ </font></font></font><font color="#2a00ff"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">&quot;
+integers&quot;</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>for</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">c</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= 0; </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">c</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+&lt; </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">n</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">;
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">c</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">++)</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">array</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">[</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">c</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">]
+= </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">in</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.nextInt();</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#2a00ff"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">&quot;Enter
+value to find&quot;</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">search</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">in</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.nextInt();</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">first</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= 0;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">last</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">n</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+- 1;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">middle</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= (</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">first</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
++ </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">last</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">)/2;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>while</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">(
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">first</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+&lt;= </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">last</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+){</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>if</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+( </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">array</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">[</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">middle</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">]
+&lt; </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">search</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+)</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">first</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">middle</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
++ 1;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>else</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>if</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+( </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">array</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">[</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">middle</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">]
+== </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">search</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+){</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">search</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
++ </font></font></font><font color="#2a00ff"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">&quot;
+found at location &quot;</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
++ (</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">middle</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
++ 1) + </font></font></font><font color="#2a00ff"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">&quot;.&quot;</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>break</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">}</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>else</b></font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">last</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">middle</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+- 1;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">middle</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= (</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">first</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
++ </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">last</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">)/2;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">}</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>if</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+( </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">first</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+&gt; </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">last</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+)</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">search</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
++ </font></font></font><font color="#2a00ff"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">&quot;
+is not present in the list.\n&quot;</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">}</font></font></font></p>
+<p style="margin-bottom: 0.28cm; line-height: 107%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">}</font></font></font></p>
+<p style="margin-bottom: 0.28cm; line-height: 107%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">Output:-</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">Enter
+number of elements</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#00c87d"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">5</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">Enter
+5 integers</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#00c87d"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">25</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#00c87d"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">65</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#00c87d"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">95</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#00c87d"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">85</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#00c87d"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">75</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">Enter
+value to find</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#00c87d"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">95</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><a name="_GoBack"></a>
+<font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">95
+found at location 3.</font></font></font></p>
+<p style="margin-bottom: 0.28cm; line-height: 107%"><br/>
+<br/>
+
+</p>
+</body>
+</html>
