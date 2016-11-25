@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 4.3.2.2 (Windows)"/>
+	<meta name="author" content="Chaitrali Bubane"/>
+	<meta name="created" content="2015-02-13T16:57:00"/>
+	<meta name="changed" content="2015-02-23T23:46:31.390000000"/>
+	<meta name="AppVersion" content="15.0000"/>
+	<meta name="DocSecurity" content="0"/>
+	<meta name="HyperlinksChanged" content="false"/>
+	<meta name="LinksUpToDate" content="false"/>
+	<meta name="ScaleCrop" content="false"/>
+	<meta name="ShareDoc" content="false"/>
+	<style type="text/css">
+		@page { margin: 2.54cm }
+		p { margin-bottom: 0.25cm; direction: ltr; line-height: 120%; text-align: left; widows: 2; orphans: 2 }
+	</style>
+</head>
+<body lang="en-GB" dir="ltr">
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>package</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+File_IO;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>import</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+java.io.File;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>public</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>class</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+AllFileOperations_Example {</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>public</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>static</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>void</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+main(String[] </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">a</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">){</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>try</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">{</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">File
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">file</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>new</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+File(</font></font></font><font color="#2a00ff"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">&quot;Akash&quot;</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#3f7f5f"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">//Tests
+whether the application can read the file</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">file</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.canRead());</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#3f7f5f"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">//Tests
+whether the application can modify the file</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">file</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.canWrite());</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#3f7f5f"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">//Tests
+whether the application can modify the file</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">file</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.createNewFile());</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#3f7f5f"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">//Deletes
+the file or directory</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">file</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.delete());</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#3f7f5f"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">//Tests
+whether the file or directory exists.</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">file</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.exists());</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#3f7f5f"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">//Returns
+the absolute pathname string.</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">file</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.getAbsolutePath());</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#3f7f5f"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">//Tests
+whether the file is a directory or not.</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">file</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.isDirectory());</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#3f7f5f"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">//Tests
+whether the file is a hidden file or not.</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">file</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.isHidden());</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#3f7f5f"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">//Returns
+an array of strings naming the</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#3f7f5f"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">//files
+and directories in the directory.</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">System.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>out</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.println(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">file</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.list());</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">}</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>catch</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">(Exception
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">ex</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">)</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">{</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">}</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">}</font></font></font></p>
+<p style="margin-bottom: 0.28cm; line-height: 107%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">}</font></font></font></p>
+<p style="margin-bottom: 0.28cm; line-height: 107%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">Output:-</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">false</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">false</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">true</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">true</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">false</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">C:\Users\Dolly\My
+JAVA\Project X\Akash</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">false</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">false</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><a name="_GoBack"></a>
+<font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">null</font></font></font></p>
+<p style="margin-bottom: 0.28cm; line-height: 107%"><br/>
+<br/>
+
+</p>
+</body>
+</html>
