@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 4.3.2.2 (Windows)"/>
+	<meta name="author" content="Chaitrali Bubane"/>
+	<meta name="created" content="2015-02-19T10:52:00"/>
+	<meta name="changed" content="2015-02-24T10:22:37.377000000"/>
+	<meta name="AppVersion" content="15.0000"/>
+	<meta name="DocSecurity" content="0"/>
+	<meta name="HyperlinksChanged" content="false"/>
+	<meta name="LinksUpToDate" content="false"/>
+	<meta name="ScaleCrop" content="false"/>
+	<meta name="ShareDoc" content="false"/>
+	<style type="text/css">
+		@page { margin: 2.54cm }
+		p { margin-bottom: 0.25cm; direction: ltr; line-height: 120%; text-align: left; widows: 2; orphans: 2 }
+	</style>
+</head>
+<body lang="en-GB" dir="ltr">
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>package</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+SWING;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>import</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+java.awt.BorderLayout;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>import</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+javax.swing.BoundedRangeModel;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>import</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+javax.swing.BoxLayout;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>import</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+javax.swing.JFrame;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>import</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+javax.swing.JPanel;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>import</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+javax.swing.JScrollBar;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>import</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+javax.swing.JTextField;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>public</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>class</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+JScrollBar_Example {</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>public</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>static</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>void</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+main(String </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">args</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">[])
+{</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">JFrame
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">frame</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>new</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+JFrame();</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">frame</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.setDefaultCloseOperation(JFrame.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>EXIT_ON_CLOSE</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>final</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+JTextField </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">textField</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>new</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+JTextField();</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">JScrollBar
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">scrollBar</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>new</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+JScrollBar(JScrollBar.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>HORIZONTAL</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">JPanel
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">panel</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>new</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+JPanel();</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">panel</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.setLayout(</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>new</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+BoxLayout(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">panel</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">,
+BoxLayout.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>Y_AXIS</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">));</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">BoundedRangeModel
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">brm</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">textField</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.getHorizontalVisibility();</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">scrollBar</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.setModel(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">brm</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">panel</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.add(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">textField</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">panel</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.add(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">scrollBar</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">frame</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.add(</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">panel</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">,
+BorderLayout.</font></font></font><font color="#0000c0"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><i><b>NORTH</b></i></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">frame</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.setSize(300,
+100);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">frame</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.setVisible(</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>true</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">}</font></font></font></p>
+<p style="margin-bottom: 0.28cm; line-height: 107%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">}</font></font></font></p>
+<p style="margin-bottom: 0.28cm; line-height: 107%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">Output:-</font></font></font></p>
+<p style="margin-bottom: 0.28cm; line-height: 107%"><a name="_GoBack"></a>
+<img src="data:image/png;base64,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" name="Picture 2" align="bottom" width="341" height="130" border="0"></p>
+</body>
+</html>
