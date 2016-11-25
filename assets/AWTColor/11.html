@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 4.3.2.2 (Windows)"/>
+	<meta name="author" content="Chaitrali Bubane"/>
+	<meta name="created" content="2015-02-16T16:33:00"/>
+	<meta name="changed" content="2015-02-23T18:55:08.311000000"/>
+	<meta name="AppVersion" content="15.0000"/>
+	<meta name="DocSecurity" content="0"/>
+	<meta name="HyperlinksChanged" content="false"/>
+	<meta name="LinksUpToDate" content="false"/>
+	<meta name="ScaleCrop" content="false"/>
+	<meta name="ShareDoc" content="false"/>
+	<style type="text/css">
+		@page { margin: 2.54cm }
+		p { margin-bottom: 0.25cm; direction: ltr; line-height: 120%; text-align: left; widows: 2; orphans: 2 }
+	</style>
+</head>
+<body lang="en-GB" dir="ltr">
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>package</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+AWT_Color;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>import</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+java.applet.Applet;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>import</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+java.awt.Color;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>import</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+java.awt.Graphics;</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>public</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>class</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+Get_Alpha_Component_Of_Color_Example </font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>extends</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+Applet{</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>public</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>void</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+paint(Graphics </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">g</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">){</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">Color
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">customColor</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>new</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+Color(255,10,10);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#7f0055"><font face="Consolas, serif"><font size="2" style="font-size: 10pt"><b>int</b></font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+</font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">alpha</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
+= </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">customColor</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.getAlpha();</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">g</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">.drawString(</font></font></font><font color="#2a00ff"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">&quot;Alpha
+component : &quot;</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">
++ </font></font></font><font color="#6a3e3e"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">alpha</font></font></font><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">,
+10,50);</font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">}</font></font></font></p>
+<p style="margin-bottom: 0.28cm; line-height: 107%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">}</font></font></font></p>
+<p style="margin-bottom: 0.28cm; line-height: 107%"><font color="#000000"><font face="Consolas, serif"><font size="2" style="font-size: 10pt">Output:-</font></font></font></p>
+<p style="margin-bottom: 0.28cm; line-height: 107%"><a name="_GoBack"></a>
+<img src="data:image/png;base64,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" name="Picture 2" align="bottom" width="161" height="210" border="0"></p>
+</body>
+</html>
